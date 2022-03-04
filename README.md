@@ -47,6 +47,7 @@ This program was developed using Visual Studio Code 1.64.2 and GitHub.
 This program was written in Python 3.9.10 using the following libraries:
 * matplotlib 3.5.1
 * sqlite3
+* csv
 * pandas 1.4.1
 
 # Useful Websites
