@@ -134,7 +134,7 @@ class Analysis:
         selection_df = filtered_df[["BGGId", "Name", "AvgRating", "NumUserRatings"]].sort_values(by="AvgRating").tail(20).iloc[::-1]
 
         # Print the results to console
-        print("The 20 most poplar games")
+        print("The 20 most popular games")
         print(selection_df.tail(self.result_num))
         print("\n")
 
